@@ -31,7 +31,7 @@ The trained model is stored in:
 ---
 
 ## 📂 Project Structure
-
+```
 spam-email-detector/
 │
 ├── app.py # Streamlit UI application
@@ -41,7 +41,7 @@ spam-email-detector/
 ├── spam.csv # Dataset (optional)
 ├── run_app.bat # Windows launcher (optional)
 └── email_spam_detection.ipynb # Training notebook (optional)
-
+```
 
 ---
 
