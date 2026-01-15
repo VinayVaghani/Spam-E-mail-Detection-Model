@@ -92,8 +92,9 @@ command : python -m streamlit run app.py
 => For run this simply double click on run_app.bat
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ![Accuracy](https://img.shields.io/badge/Accuracy-99%25-success)
