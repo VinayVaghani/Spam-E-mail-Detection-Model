@@ -52,37 +52,37 @@ Make sure you have:
 
 ---
 
-The project works in 3 parts :
+The project works in 3 parts :<br><br>
 
 
-1️⃣ Dataset (spam.csv) (pre-processing)
+1️⃣ Dataset (spam.csv) (pre-processing)<br><br>
 
 
-Dataset contains emails and labels.
-Example columns:
-Message = email text
-Category = label (spam or ham)
+Dataset contains emails and labels.<br>
+Example columns: <br>
+Message = email text <br>
+Category = label (spam or ham) <br><br>
+ 
+
+2️⃣ Training Model in Notebook (.ipynb) <br><br>
 
 
-2️⃣ Training Model in Notebook (.ipynb)
+-Step A: It reads dataset <br>
+
+-Step B: Separate X and y <br>
+  -X = messages <br>
+  -y = label <br> <br>
+
+-Step C: Convert text into numbers using CountVectorizer <br> <br>
+
+-Step D: Train ML Algorithm <br>
+  -Algorithm: Multinomial Naive Bayes <br> <br>
+
+-Step E: Save trained model <br>
+  -file : spam_model.pkl <br> <br>
 
 
--Step A: It reads dataset,
-
--Step B: Separate X and y
-  -X = messages
-  -y = label
-
--Step C: Convert text into numbers using CountVectorizer
-
--Step D: Train ML Algorithm
-  -Algorithm: Multinomial Naive Bayes
-
--Step E: Save trained model
-  -file : spam_model.pkl
-
-
-3️⃣ Streamlit UI (app.py)
+3️⃣ Streamlit UI (app.py) <br><br>
 
 
 -> Load model <br>
