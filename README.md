@@ -34,13 +34,13 @@ The trained model is stored in:
 ```
 spam-email-detector/
 │
-├── app.py # Streamlit UI application
-├── spam_model.pkl # Trained ML model (Notebook output)
-├── requirements.txt # Required libraries
-├── README.md # Project documentation
-├── spam.csv # Dataset (optional)
-├── run_app.bat # Windows launcher (optional)
-└── email_spam_detection.ipynb # Training notebook (optional)
+├── app.py  (Streamlit UI application)
+├── spam_model.pkl  (Trained ML model (Notebook output))
+├── requirements.txt  (Required libraries)
+├── README.md  (Project documentation)
+├── spam.csv  (Dataset)
+├── run_app.bat  (Windows launcher (optional))
+└── email_spam_detection.ipynb  (Training notebook (optional))
 ```
 
 ---
@@ -83,3 +83,17 @@ file : spam_model.pkl
 -> Take user input
 -> Predict result
 -> Display output
+
+What run_app.bat contains
+
+the command for run this project, you can directly run this by write the command in your terminal where your project directory is 
+command : python -m streamlit run app.py
+
+=> For run this simply double click on run_app.bat
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Accuracy](https://img.shields.io/badge/Accuracy-99%25-success)
