@@ -67,19 +67,19 @@ Category = label (spam or ham) <br><br>
 2️⃣ Training Model in Notebook (.ipynb) <br><br>
 
 
--Step A: It reads dataset <br>
+Step A: It reads dataset <br>
 
--Step B: Separate X and y <br>
-  -X = messages <br>
-  -y = label <br> <br>
+Step B: Separate X and y <br>
+X = messages <br>
+y = label <br> <br>
 
--Step C: Convert text into numbers using CountVectorizer <br> <br>
+Step C: Convert text into numbers using CountVectorizer <br> <br>
 
--Step D: Train ML Algorithm <br>
-  -Algorithm: Multinomial Naive Bayes <br> <br>
+Step D: Train ML Algorithm <br>
+Algorithm: Multinomial Naive Bayes <br> <br>
 
--Step E: Save trained model <br>
-  -file : spam_model.pkl <br> <br>
+Step E: Save trained model <br>
+file : spam_model.pkl <br> <br>
 
 
 3️⃣ Streamlit UI (app.py) <br><br>
