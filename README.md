@@ -54,14 +54,18 @@ Make sure you have:
 
 The project works in 3 parts :
 
+
 1️⃣ Dataset (spam.csv) (pre-processing)
+
 
 Dataset contains emails and labels.
 Example columns:
 Message = email text
 Category = label (spam or ham)
 
+
 2️⃣ Training Model in Notebook (.ipynb)
+
 
 Step A: It reads dataset,
 
@@ -77,7 +81,9 @@ Algorithm: Multinomial Naive Bayes
 Step E: Save trained model
 file : spam_model.pkl
 
+
 3️⃣ Streamlit UI (app.py)
+
 
 -> Load model
 -> Take user input
