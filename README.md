@@ -104,3 +104,9 @@ command : python -m streamlit run app.py
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
 
 ![Accuracy](https://img.shields.io/badge/Accuracy-99%25-success)
+
+<img width="2877" height="1246" alt="image" src="https://github.com/user-attachments/assets/9935446d-5108-41f2-95b3-4301de7afd78" />
+
+<img width="2862" height="1232" alt="image" src="https://github.com/user-attachments/assets/704d6eae-c219-4434-89e9-b3e5a57b72fb" />
+
+
