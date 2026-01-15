@@ -85,10 +85,10 @@ Category = label (spam or ham)
 3️⃣ Streamlit UI (app.py)
 
 
--> Load model
--> Take user input
--> Predict result
--> Display output
+-> Load model <br>
+-> Take user input <br>
+-> Predict result <br>
+-> Display output <br>
 
 What run_app.bat contains
 
